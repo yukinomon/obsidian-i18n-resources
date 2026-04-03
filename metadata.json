@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "id": "0VUtz_wAUEy3KEfl59BDPt88OyepUqYz",
+        "plugin": "android-nomedia",
+        "language": "zh-cn",
+        "version": "0.1.0",
+        "supported_versions": "0.1.0",
+        "title": "Android nomedia",
+        "description": "Android nomedia Localization & Tweaks",
+        "hash": "2a379b612a379b612a379b612a379b61",
+        "created_at": "2026-04-03T05:31:52.842Z",
+        "updated_at": "2026-04-03T05:31:52.842Z",
+        "type": "plugin"
+    }
+]
