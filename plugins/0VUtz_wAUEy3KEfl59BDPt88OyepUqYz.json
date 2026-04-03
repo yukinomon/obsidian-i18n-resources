@@ -1,0 +1,56 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "android-nomedia",
+        "version": "1.0.0",
+        "title": "Android nomedia",
+        "description": "Android nomedia Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "My plugin has loaded!",
+                    "target": "我的插件已加载！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "My plugin has been unloaded!",
+                    "target": "我的插件加载失败！"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(\"My plugin has loaded!\")",
+                    "target": "log(\"My plugin has loaded!\")"
+                },
+                {
+                    "source": "log(`Created .nomedia file in ${this.app.vault.getRoot().path}`)",
+                    "target": "log(`Created .nomedia file in ${this.app.vault.getRoot().path}`)"
+                },
+                {
+                    "source": "log(`.nomedia file already exists in ${this.app.vault.getRoot().path}`)",
+                    "target": "log(`.nomedia file already exists in ${this.app.vault.getRoot().path}`)"
+                },
+                {
+                    "source": "log(`Created .nomedia file in ${abstractFile.path}`)",
+                    "target": "log(`Created .nomedia file in ${abstractFile.path}`)"
+                },
+                {
+                    "source": "log(`.nomedia file already exists in ${abstractFile.path}`)",
+                    "target": "log(`.nomedia file already exists in ${abstractFile.path}`)"
+                },
+                {
+                    "source": "log(\"My plugin has been unloaded!\")",
+                    "target": "log(\"My plugin has been unloaded!\")"
+                }
+            ]
+        }
+    }
+}
