@@ -1,0 +1,348 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "sticky-notes",
+        "version": "1.0.0",
+        "title": "[zh-cn] Sticky Notes",
+        "description": "Sticky Notes Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Updated settings",
+                    "target": "更新设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Initializing Sticky Note view ...",
+                    "target": "正在初始化便签视图..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Sticky Notes : plugin loading....",
+                    "target": "便签插件正在加载..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Stiky Notes : plugin UN-loading ....",
+                    "target": "便签插件正在卸载..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Opened Sticky Note Popup",
+                    "target": "打开便签弹窗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select what default size each new sticky note window should take. Make sure its in the correct format e.g (width x height)",
+                    "target": "选择新便签窗口的默认大小。确保格式正确，例如（宽度 x 高度）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the default Pin mode when a sticky note is created.",
+                    "target": "选择创建便签时的默认固定模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable or disable window resizing for new sticky notes.",
+                    "target": "启用或禁用新便签的窗口大小调整"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder where new sticky notes are created.",
+                    "target": "新便签创建的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable or disable taskbar visibility sticky notes.",
+                    "target": "启用或禁用便签在任务栏中的显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Save and load sticky notes when closing and opening workspace.",
+                    "target": "关闭和打开工作区时保存和加载便签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The default background color for a sticky note will be the same as the most recently used color.",
+                    "target": "便签的默认背景颜色将与最近使用的颜色相同"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Background colors for sticky notes will be stored & saved in the frontmatter of each note.",
+                    "target": "便签的背景颜色将存储并保存在每张便签的前言中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Adjust sticky note background colors. The toggle determines the default color.",
+                    "target": "调整便签的背景颜色。切换按钮用于确定默认颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "General",
+                    "target": "通用设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Size",
+                    "target": "大小设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default size",
+                    "target": "默认大小设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default pin mode",
+                    "target": "默认固定模式设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Resizable window",
+                    "target": "可调整窗口大小设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New sticky note path",
+                    "target": "新建便签的路径设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Taskbar visibility",
+                    "target": "任务栏可见性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save workspace",
+                    "target": "保存工作区"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Color",
+                    "target": "颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use recent color",
+                    "target": "使用最近使用的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Background colors",
+                    "target": "背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: 300x300",
+                    "target": "示例：300x300"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: StickyNotes",
+                    "target": "示例：便签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "property key",
+                    "target": "属性键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open sticky note",
+                    "target": "打开便签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No default color found ...",
+                    "target": "未找到默认颜色..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No file is active to retrieve frontmatter",
+                    "target": "没有文件可以用来获取前言内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to get frontmatter:",
+                    "target": "无法获取前言内容："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No file is active to update frontmatter",
+                    "target": "没有文件可以用来更新前言内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to update frontmatter:",
+                    "target": "无法更新前言内容："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "unable to create new sticky note",
+                    "target": "无法创建新的便签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open sticky note",
+                    "target": "打开便签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create sticky note",
+                    "target": "创建便签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Destroy all sticky note",
+                    "target": "删除所有便签"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(`Message ${n} sent by unexpected WebContents (${e.senderId})`)",
+                    "target": "error(`Message ${n} sent by unexpected WebContents (${e.senderId})`)"
+                },
+                {
+                    "source": "setName(\"Default size\")",
+                    "target": "setName(\"Default size\")"
+                },
+                {
+                    "source": "setDesc(\"Select what default size each new sticky note window should take. Make sure its in the correct format e.g (width x height)\")",
+                    "target": "setDesc(\"Select what default size each new sticky note window should take. Make sure its in the correct format e.g (width x height)\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Example: 300x300\")",
+                    "target": "setPlaceholder(\"Example: 300x300\")"
+                },
+                {
+                    "source": "setName(\"Default pin mode\")",
+                    "target": "setName(\"Default pin mode\")"
+                },
+                {
+                    "source": "setDesc(\"Select the default Pin mode when a sticky note is created.\")",
+                    "target": "setDesc(\"Select the default Pin mode when a sticky note is created.\")"
+                },
+                {
+                    "source": "setName(\"Resizable window\")",
+                    "target": "setName(\"Resizable window\")"
+                },
+                {
+                    "source": "setDesc(\"Enable or disable window resizing for new sticky notes.\")",
+                    "target": "setDesc(\"Enable or disable window resizing for new sticky notes.\")"
+                },
+                {
+                    "source": "setName(\"New sticky note path\")",
+                    "target": "setName(\"New sticky note path\")"
+                },
+                {
+                    "source": "setDesc(\"Folder where new sticky notes are created.\")",
+                    "target": "setDesc(\"Folder where new sticky notes are created.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Example: StickyNotes\")",
+                    "target": "setPlaceholder(\"Example: StickyNotes\")"
+                },
+                {
+                    "source": "setName(\"Taskbar visibility\")",
+                    "target": "setName(\"Taskbar visibility\")"
+                },
+                {
+                    "source": "setDesc(\"Enable or disable taskbar visibility sticky notes.\")",
+                    "target": "setDesc(\"Enable or disable taskbar visibility sticky notes.\")"
+                },
+                {
+                    "source": "setName(\"Save workspace\")",
+                    "target": "setName(\"Save workspace\")"
+                },
+                {
+                    "source": "setDesc(\"Save and load sticky notes when closing and opening workspace.\")",
+                    "target": "setDesc(\"Save and load sticky notes when closing and opening workspace.\")"
+                },
+                {
+                    "source": "setName(\"Use recent color\")",
+                    "target": "setName(\"Use recent color\")"
+                },
+                {
+                    "source": "setDesc(\"The default background color for a sticky note will be the same as the most recently used color.\")",
+                    "target": "setDesc(\"The default background color for a sticky note will be the same as the most recently used color.\")"
+                },
+                {
+                    "source": "setDesc(\"Background colors for sticky notes will be stored & saved in the frontmatter of each note.\")",
+                    "target": "setDesc(\"Background colors for sticky notes will be stored & saved in the frontmatter of each note.\")"
+                },
+                {
+                    "source": "setName(\"Background colors\")",
+                    "target": "setName(\"Background colors\")"
+                },
+                {
+                    "source": "setDesc(\"Adjust sticky note background colors. The toggle determines the default color.\")",
+                    "target": "setDesc(\"Adjust sticky note background colors. The toggle determines the default color.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"property key\")",
+                    "target": "setPlaceholder(\"property key\")"
+                },
+                {
+                    "source": "setTitle(\"Open sticky note\")",
+                    "target": "setTitle(\"Open sticky note\")"
+                },
+                {
+                    "source": "name:\"Open sticky note\"",
+                    "target": "name:\"Open sticky note\""
+                },
+                {
+                    "source": "name:\"Create sticky note\"",
+                    "target": "name:\"Create sticky note\""
+                },
+                {
+                    "source": "name:\"Destroy all sticky note\"",
+                    "target": "name:\"Destroy all sticky note\""
+                }
+            ]
+        }
+    }
+}
