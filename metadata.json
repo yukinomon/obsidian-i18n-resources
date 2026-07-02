@@ -24,5 +24,18 @@
         "created_at": "2026-07-02T13:55:00.897Z",
         "updated_at": "2026-07-02T13:55:00.897Z",
         "type": "plugin"
+    },
+    {
+        "id": "eLEF_4_Q1EsEE2_yfvDd6BPWM4sHonn2",
+        "plugin": "obsidian-local-rest-api",
+        "language": "zh-cn",
+        "version": "4.0.3",
+        "supported_versions": "4.0.3",
+        "title": "[ouroboros][zh-cn] Local REST API & MCP Server",
+        "description": "Local REST API & MCP Server Localization & Tweaks",
+        "hash": "6b5ba5556b5ba5556b5ba5556b5ba555",
+        "created_at": "2026-07-02T13:59:13.687Z",
+        "updated_at": "2026-07-02T13:59:13.687Z",
+        "type": "plugin"
     }
 ]
