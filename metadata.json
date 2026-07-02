@@ -11,5 +11,18 @@
         "created_at": "2026-04-03T05:31:52.842Z",
         "updated_at": "2026-04-03T05:31:52.842Z",
         "type": "plugin"
+    },
+    {
+        "id": "DSrbTocFfBUxHYJGYLVRDrbhkYQBt2ye",
+        "plugin": "sticky-notes",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "1.0.0",
+        "title": "[zh-cn] Sticky Notes",
+        "description": "Sticky Notes Localization & Tweaks",
+        "hash": "66facba866facba866facba866facba8",
+        "created_at": "2026-07-02T13:55:00.897Z",
+        "updated_at": "2026-07-02T13:55:00.897Z",
+        "type": "plugin"
     }
 ]
